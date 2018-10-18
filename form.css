@@ -1,0 +1,101 @@
+body {
+    /* Vi sikrer os lige at skærmen kan fyldes helt ud! */
+    background-color: #eff6fd;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+header {
+    position: relative;
+}
+
+header img {
+
+    width: 100%;
+    display: block;
+}
+
+nav {
+    position: absolute;
+    top: 1em;
+    padding-left: 5em;
+}
+
+nav a:link {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    font-weight: 100;
+    color: white;
+    text-decoration: none;
+}
+
+
+.sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.column {
+
+margin-left: 40px;
+margin-right: 15px;
+
+}
+
+.right {
+
+padding-top: 20px;
+padding-left: 10px;
+}
+
+H1 {
+
+    font-family: "Georgia", Times, serif;
+    font-size: 2.5em;
+    color: #162944;
+    padding-top: 5em;
+}
+
+H2 {
+
+    font-family: "Georgia", Times, serif;
+    font-size: 1.5em;
+    color: #162944;
+
+}
+
+
+p {
+
+    font-family: Verdana, Helvetica, sans-serif;
+    font-size: 1.5em;
+    color: #162944;
+}
+
+.form {
+
+    font-family: Verdana, Helvetica, sans-serif;
+    font-size: 1em;
+    color: #162944;
+    margin: 0px;
+    color: white;
+
+}
+
+
+footer p {
+
+    font-family: Verdana, Helvetica, sans-serif;
+    font-size: 0.8em;
+    font-weight: bold;
+    color: #162944;
+    margin-left: 10px;
+
+}
+
+
+.center{
+	width: 50vw;
+	margin: 0 auto;
+	}
+
