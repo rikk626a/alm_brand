@@ -1,0 +1,345 @@
+body {
+    /* Vi sikrer os lige at skærmen kan fyldes helt ud! */
+    background-color: white;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+header {
+    position: relative;
+    margin-bottom: 2em;
+}
+
+header img {
+
+    width: 100%;
+    display: block;
+}
+
+nav {
+    position: absolute;
+    top: 1em;
+    padding-left: 5em;
+}
+
+nav a:link {
+    font-family: Verdana, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    font-weight: 100;
+    color: white;
+    text-decoration: none;
+}
+
+nav a:visited {
+    font-family: 'Work Sans', sans-serif;
+    color: white;
+}
+
+
+.sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.column {
+
+    margin-left: 40px;
+    margin-right: 15px;
+
+}
+
+.right {
+
+    padding-top: 0px;
+    padding-left: 10px;
+}
+
+H1 {
+
+    font-family: "Georgia", Times, serif;
+    font-size: 2.5em;
+    color: #162944;
+    margin-bottom: 0px;
+    margin-top: 0px;
+
+}
+
+H2 {
+
+    font-family: "Georgia", Times, serif;
+    font-size: 1.5em;
+    color: #162944;
+    margin-bottom: 0px;
+    margin-top: 0px;
+
+}
+
+
+p {
+
+    font-family: Verdana, Helvetica, sans-serif;
+    font-size: 1.3em;
+    color: #162944;
+}
+
+#et p {
+
+    font-family: Verdana, Helvetica, sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #162944;
+}
+
+footer p {
+
+    font-family: Verdana, Helvetica, sans-serif;
+    font-size: 0.8em;
+    font-weight: bold;
+    color: #162944;
+    margin-left: 10px;
+
+}
+
+li {
+    font-family: "Georgia", Times, serif;
+    font-size: 1.4em;
+    color: #162944;
+}
+
+#to .sectionwrapper {
+
+    margin-bottom: 30px;
+
+}
+
+#tre .sectionwrapper {
+    justify-content: center;
+    background-color: black;
+    height: 15em;
+    align-items: center;
+}
+
+.myButton {
+    -moz-box-shadow: inset 0px 0px 6px -15px #00b9ea;
+    -webkit-box-shadow: inset 0px 0px 6px -15px #00b9ea;
+    box-shadow: inset 0px 0px 6px -15px #00b9ea;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #00b9ea), color-stop(1, #00768d));
+    background: -moz-linear-gradient(top, #00b9ea 5%, #00768d 100%);
+    background: -webkit-linear-gradient(top, #00b9ea 5%, #00768d 100%);
+    background: -o-linear-gradient(top, #00b9ea 5%, #00768d 100%);
+    background: -ms-linear-gradient(top, #00b9ea 5%, #00768d 100%);
+    background: linear-gradient(to bottom, #00b9ea 5%, #00768d 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00b9ea', endColorstr='#00768d', GradientType=0);
+    background-color: #00b9ea;
+    -moz-border-radius: 11px;
+    -webkit-border-radius: 11px;
+    border-radius: 11px;
+    border: 1px solid #032846;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Verdana, Helvetica, sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    padding: 20px 73px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #032846;
+}
+
+.myButton:hover {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #00768d), color-stop(1, #00b9ea));
+    background: -moz-linear-gradient(top, #00768d 5%, #00b9ea 100%);
+    background: -webkit-linear-gradient(top, #00768d 5%, #00b9ea 100%);
+    background: -o-linear-gradient(top, #00768d 5%, #00b9ea 100%);
+    background: -ms-linear-gradient(top, #00768d 5%, #00b9ea 100%);
+    background: linear-gradient(to bottom, #00768d 5%, #00b9ea 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00768d', endColorstr='#00b9ea', GradientType=0);
+    background-color: #00768d;
+}
+
+.myButton:active {
+    position: relative;
+    top: 1px;
+}
+
+/*media queries*/
+
+
+@media screen and (max-width: 1920px) {
+
+
+#to .sectionwrapper {
+flex-wrap: nowrap;
+flex-direction: column;
+}
+   .column {
+        margin-right: 20px;
+    }
+    .content {
+max-width: 800px;
+    }
+    .right {
+        padding-left: 0px;
+        padding-top: 0px;
+    }
+h1 {
+        font-size: 5em;
+    }
+    h2 {
+        font-size: 3.5em;
+    }
+    p {
+        font-size: 1.9em;
+        margin-bottom: 40px;
+        margin-top: 40px;
+
+    }
+    li {
+        font-size: 2.1em;
+        font-weight: bold;
+    }
+}
+
+@media screen and (max-width: 1500px) {
+
+
+#to .sectionwrapper {
+flex-wrap: nowrap;
+flex-direction: column;
+}
+   .column {
+        margin-right: 20px;
+    }
+    .content {
+max-width: 800px;
+    }
+    .right {
+        padding-left: 0px;
+        padding-top: 0px;
+    }
+h1 {
+        font-size: 4em;
+    }
+    h2 {
+        font-size: 2.8em;
+    }
+    p {
+        font-size: 1.6em;
+    }
+    li {
+        font-size: 2em;
+        font-weight: bold;
+    }
+}
+
+
+@media screen and (max-width: 1200px) {
+
+
+#to .sectionwrapper {
+flex-wrap: nowrap;
+flex-direction: column;
+}
+   .column {
+        margin-right: 20px;
+    }
+    .content {
+max-width: 800px;
+    }
+    .right {
+        padding-left: 0px;
+        padding-top: 0px;
+    }
+h1 {
+        font-size: 3.6em;
+    }
+    h2 {
+        font-size: 2.3em;
+    }
+    p {
+        font-size: 1.3em;
+    }
+    li {
+        font-size: 1.6em;
+        font-weight: bold;
+    }
+}
+
+
+@media screen and (max-width: 1024px) {
+
+    .column {
+        margin-right: 20px;
+    }
+    .content {
+max-width: 800px;
+    }
+    .right {
+        padding-left: 0px;
+        padding-top: 0px;
+    }
+h1 {
+        font-size: 3.2em;
+    }
+    h2 {
+        font-size: 2em;
+    }
+    p {
+        font-size: 1.2em;
+    }
+    li {
+        font-size: 1.6em;
+        font-weight: bold;
+    }
+}
+
+@media screen and (max-width: 910px) {
+
+    .column {
+        margin-right: 20px;
+    }
+    .content {
+max-width: 540px;
+    }
+    .right {
+        padding-left: 0px;
+        padding-top: 0px;
+    }
+    p {
+        font-size: 1em;
+    }
+    li {
+        font-size: 1.3em;
+    }
+}
+
+@media screen and (max-width: 640px) {
+
+    .column {
+        margin-right: 20px;
+    }
+    .right {
+        padding-left: 0px;
+        padding-top: 0px;
+    }
+    p {
+        font-size: 1em;
+    }
+    li {
+        font-size: 1.3em;
+    }
+}
+
+@media screen and (max-width: 584px) {
+
+    .right {
+        padding-top: 0px;
+        padding-left: 0px;
+    }
+    p {
+        font-size: 1em;
+    }
+    li {
+        font-size: 1.3em;
+    }
+}
